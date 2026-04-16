@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hello from my Dockerized Node.js app!\n');
+    res.end('My CI/CD pipeline is working! 🚀\n');
 });
 
 const port = 3000;
